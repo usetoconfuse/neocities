@@ -7,3 +7,17 @@ body {
   color: black;
   font-family: Verdana;
 }
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+#frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  min-height: 500px;
+  margin-top: 10vh;
+}
