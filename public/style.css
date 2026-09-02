@@ -6,7 +6,7 @@
 body {
   background-color: floralwhite;
   color: black;
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
 }
 
 #container {
@@ -16,12 +16,12 @@ body {
   height: 80vh;
 }
 
-#frame {
+#figframe {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-#frame img {
+#figframe img {
   max-width: 90vw;
   max-height: 70vh;
   grid-row-start: 1;
