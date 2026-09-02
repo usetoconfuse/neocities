@@ -34,12 +34,12 @@ body {
 
 #figeyel {
   z-index: 1;
-  transform: translate(calc(3% * (var(--x))), calc(3% * var(--y)));
+  transform: translate(calc(4% * (var(--x))), calc(3% * var(--y)));
 }
 
 #figeyer {
   z-index: 1;
-  transform: translate(calc(3% * (var(--x))), calc(3% * var(--y)));
+  transform: translate(calc(4% * (var(--x))), calc(3% * var(--y)));
 }
 
 #figeyesbg {
