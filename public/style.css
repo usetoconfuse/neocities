@@ -1,19 +1,47 @@
+:root {
+  --x: 0.5;
+  --y: 0.5;
+}
+
 body {
   background-color: floralwhite;
   color: black;
   font-family: Verdana;
 }
 
-img {
-  height: 100%;
-  width: auto;
-}
-
 #frame {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  min-height: 500px;
-  margin-top: 10vh;
+  height:100vh;
+}
+
+#frame img {
+  position: absolute;
+  max-width: 90vw;
+  max-height: 70vh;
+}
+
+#figbody {
+  z-index: 2;
+}
+
+#figeyel {
+  border: 1px solid green;
+  z-index: 1;
+  top: 50.5%;
+  left: 50%;
+  transform: translate(calc(-50% + 3vh * (var(--x))), calc(-50% + 3vh * var(--y)));
+}
+
+#figeyer {
+  border: 1px solid red;
+  z-index: 1;
+  top: 50.5%;
+  left: 50%;
+  transform: translate(calc(-50% + 3vh * (var(--x))), calc(-50% + 3vh * var(--y)));
+}
+
+#figeyesbg {
+  z-index: 0;
 }
