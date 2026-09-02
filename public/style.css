@@ -9,17 +9,23 @@ body {
   font-family: Verdana;
 }
 
-#frame {
+#container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
+  height: 80vh;
+}
+
+#frame {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 #frame img {
-  position: absolute;
   max-width: 90vw;
   max-height: 70vh;
+  grid-row-start: 1;
+  grid-column-start: 1;
 }
 
 #figbody {
@@ -27,19 +33,13 @@ body {
 }
 
 #figeyel {
-  border: 1px solid green;
   z-index: 1;
-  top: 50.5%;
-  left: 50%;
-  transform: translate(calc(-50% + 3vh * (var(--x))), calc(-50% + 3vh * var(--y)));
+  transform: translate(calc(3% * (var(--x))), calc(3% * var(--y)));
 }
 
 #figeyer {
-  border: 1px solid red;
   z-index: 1;
-  top: 50.5%;
-  left: 50%;
-  transform: translate(calc(-50% + 3vh * (var(--x))), calc(-50% + 3vh * var(--y)));
+  transform: translate(calc(3% * (var(--x))), calc(3% * var(--y)));
 }
 
 #figeyesbg {
