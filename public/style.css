@@ -44,8 +44,10 @@ body {
 #figeyes {
   z-index: 1;
   transform: translate(calc(4% * (var(--x))), calc(3% * var(--y)));
+  user-select: none;
 }
 
 #figeyesbg {
   z-index: 0;
+  user-select: none;
 }
