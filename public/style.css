@@ -1,3 +1,9 @@
+@font-face {
+  font-family: unifont;
+  src: url(UnifontExMono.ttf)
+    format("truetype");
+}
+
 :root {
   --x: 0.5;
   --y: 0.5;
@@ -6,11 +12,14 @@
 body {
   background-color: floralwhite;
   color: black;
-  font-family: Verdana, sans-serif;
+  font-family: unifont, sans-serif;
+  font-size: x-large;
+  letter-spacing: 1px;
 }
 
 #container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;
