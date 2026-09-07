@@ -1,0 +1,34 @@
+#homepage-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    border: 1px solid black;
+    margin-top: 10vh;
+}
+
+#banner-frame {
+    width:100%;
+    height: 20vh;
+    border: 1px solid red;
+}
+
+#homepage-columns-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    padding: 1%;
+}
+
+.side-column {
+    width:30%;
+    border: 1px solid black;
+}
+
+#centre-column {
+    width:40%;
+    border:1px solid black;
+}
