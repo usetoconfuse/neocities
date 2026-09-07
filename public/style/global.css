@@ -1,3 +1,8 @@
+:root {
+  --background-colour: white;
+  --foreground-colour: black;
+}
+
 @font-face {
   font-family: unifont;
   src: url(UnifontExMono.ttf)
@@ -5,8 +10,8 @@
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: var(--background-colour);
+  color: var(--foreground-colour);
   font-family: unifont, sans-serif;
   font-size: x-large;
   letter-spacing: 1px;
