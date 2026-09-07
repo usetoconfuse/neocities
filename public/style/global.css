@@ -1,6 +1,6 @@
 :root {
-  --background-colour: white;
-  --foreground-colour: black;
+  --background-color: white;
+  --foreground-color: black;
 }
 
 @font-face {
@@ -10,8 +10,8 @@
 }
 
 body {
-  background-color: var(--background-colour);
-  color: var(--foreground-colour);
+  background-color: var(--background-color);
+  color: var(--foreground-color);
   font-family: unifont, sans-serif;
   font-size: x-large;
   letter-spacing: 1px;
