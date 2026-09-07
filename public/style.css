@@ -25,29 +25,29 @@ body {
   height: 80vh;
 }
 
-#figure-frame {
+#figframe {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-#figure-frame img {
+#figframe img {
   max-width: 90vw;
   max-height: 70vh;
   grid-row-start: 1;
   grid-column-start: 1;
 }
 
-#figure-body {
+#figbody {
   z-index: 2;
 }
 
-#figure-eyes {
+#figeyes {
   z-index: 1;
   transform: translate(calc(4% * (var(--x))), calc(3% * var(--y)));
   user-select: none;
 }
 
-#figure-eyes-background {
+#figeyesbg {
   z-index: 0;
   user-select: none;
 }
