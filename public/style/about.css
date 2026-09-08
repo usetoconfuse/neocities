@@ -1,8 +1,10 @@
+/* Variables to track mouse position */
 :root {
   --x: 0.5;
   --y: 0.5;
 }
 
+/* Figure styling */
 #figure-frame {
   display: grid;
   grid-template-columns: 1fr;

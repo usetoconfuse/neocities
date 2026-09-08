@@ -1,25 +1,9 @@
-#homepage-content {
+/* Containers */
+#homepage-content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 60vw;
-}
-
-#banner-frame {
-    display: flex;
-    justify-content: center;
-    z-index: 0;
-}
-
-#banner-frame div {
-    display: flex;
-    width:70%;
-}
-
-#banner-frame img {
-    width: calc(100% + 24px);
-    border-radius: 20px;
-    z-index: -1;
 }
 
 #homepage-columns-container {
@@ -28,6 +12,12 @@
     width: 100%;
 }
 
+/* Banner */
+#banner-frame {
+    width: 70%;
+}
+
+/* Columns */
 .column {
     background-color: var(--background-color);
 }

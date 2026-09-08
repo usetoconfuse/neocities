@@ -1,3 +1,9 @@
+/* ================ NAMING CONVENTIONS ================ */
+/* Container - element used to position elements it contains */
+/* Frame - element used to contain an image and its styling elements */
+
+/* ================ VARIABLES ================ */
+
 :root {
   --background-color: #ffffff;
   --foreground-color: #000000;
@@ -5,11 +11,15 @@
   --light-stripe: #757575;
 }
 
+/* ================ FONTS ================ */
+
 @font-face {
   font-family: unifont;
   src: url(UnifontExMono.ttf)
     format("truetype");
 }
+
+/* ================ GLOBAL STYLING ================ */
 
 body {
   background-color: var(--background-color);
@@ -19,12 +29,33 @@ body {
   image-rendering: crisp-edges;
 }
 
-.container {
+/* ================ LAYOUT COMPONENTS ================ */
+
+.page-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.frame {
+  display: flex;
+  z-index: 0;
+}
+
+.frame div {
+  display: flex;
+}
+
+.frame img {
+  max-width: calc(100% + 24px);
+  max-height: calc(100% + 24px);
+  border-radius: 20px;
+  margin: -12px;
+  z-index: -1;
+}
+
+/* ================ BORDERS ================ */
 
 .pixel-border {
   border: 12px solid transparent;
@@ -33,9 +64,7 @@ body {
   margin: 2px;
 }
 
-.pixel-border img {
-  margin: -12px;
-}
+/* ================ BACKGROUNDS ================ */
 
 .dark-stripe-background {
   background: linear-gradient(
