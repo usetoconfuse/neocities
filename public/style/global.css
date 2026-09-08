@@ -22,7 +22,12 @@
 /* ================ GLOBAL STYLING ================ */
 
 body {
-  background-color: var(--background-color);
+  background: linear-gradient(
+        to bottom,
+        var(--dark-stripe) 75%,
+        var(--light-stripe) 25%
+    );
+  background-size: 100% 12px;
   color: var(--foreground-color);
   font-family: unifont, sans-serif;
   font-size: 32px;
@@ -32,6 +37,7 @@ body {
 /* ================ LAYOUT COMPONENTS ================ */
 
 .page-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,6 +51,7 @@ body {
 
 .frame div {
   display: flex;
+  background-color: transparent;
 }
 
 .frame img {
@@ -55,22 +62,22 @@ body {
   z-index: -1;
 }
 
+.corner-label {
+  position: absolute;
+  align-self: baseline;
+  background-color: wheat;
+}
+
 /* ================ BORDERS ================ */
 
 .pixel-border {
   border: 12px solid transparent;
   border-image: url(../images/pixelborder.webp) 4 stretch;
   border-radius: 20px;
+  background-color: var(--background-color);
   margin: 2px;
 }
 
-/* ================ BACKGROUNDS ================ */
-
-.dark-stripe-background {
-  background: linear-gradient(
-        to bottom,
-        var(--dark-stripe) 75%,
-        var(--light-stripe) 25%
-    );
-  background-size: 100% 12px;
+.pixel-border > * {
+  margin: 0px;
 }
