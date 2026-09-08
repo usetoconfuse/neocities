@@ -1,6 +1,8 @@
 :root {
-  --background-color: white;
-  --foreground-color: black;
+  --background-color: #ffffff;
+  --foreground-color: #000000;
+  --dark-stripe: #6e6e6e;
+  --light-stripe: #757575;
 }
 
 @font-face {
@@ -33,4 +35,13 @@ body {
 
 .pixel-border img {
   margin: -12px;
+}
+
+.dark-stripe-background {
+  background: linear-gradient(
+        to bottom,
+        var(--dark-stripe) 75%,
+        var(--light-stripe) 25%
+    );
+  background-size: 100% 12px;
 }
