@@ -13,8 +13,7 @@ body {
   background-color: var(--background-color);
   color: var(--foreground-color);
   font-family: unifont, sans-serif;
-  font-size: x-large;
-  letter-spacing: 1px;
+  font-size: 32px;
 }
 
 .container {
@@ -22,4 +21,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.pixel-border {
+  image-rendering: crisp-edges;
+  border: 12px solid transparent;
+  border-image: url(../images/pixelborder.webp) 4 stretch;
+  margin: 2px;
 }
