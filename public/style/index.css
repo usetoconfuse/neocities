@@ -1,15 +1,18 @@
 /* Containers */
 #homepage-content-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 60vw;
+    padding: 4px;
 }
 
 #homepage-columns-container {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 4px;
 }
 
 /* Banner */
@@ -20,6 +23,7 @@
 /* Columns */
 .column {
     background-color: var(--background-color);
+    margin: 2px;
 }
 
 .side-column {
