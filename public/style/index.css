@@ -3,23 +3,23 @@
     flex-direction: column;
     align-items: center;
     width: 60vw;
-    margin-top: 10vh;
 }
 
 #banner-frame {
     display: flex;
-    width:100%;
-    height: 20vh;
+    justify-content: center;
 }
 
 #banner-frame div {
     display: flex;
-    width:100%;
+    width:70%;
 }
 
 #banner-frame img {
     z-index: -1;
     margin: -12px;
+    width: calc(100% + 24px);
+    border-radius: 20px;
 }
 
 #homepage-columns-container {

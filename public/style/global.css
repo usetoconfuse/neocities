@@ -14,6 +14,7 @@ body {
   color: var(--foreground-color);
   font-family: unifont, sans-serif;
   font-size: 32px;
+  image-rendering: crisp-edges;
 }
 
 .container {
@@ -24,7 +25,6 @@ body {
 }
 
 .pixel-border {
-  image-rendering: crisp-edges;
   border: 12px solid transparent;
   border-image: url(../images/pixelborder.webp) 4 stretch;
   border-radius: 20px;
