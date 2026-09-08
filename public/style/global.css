@@ -27,7 +27,7 @@ body {
         var(--dark-stripe) 75%,
         var(--light-stripe) 25%
     );
-  background-size: 100% 16px;
+  background-size: 100% 8px;
   color: var(--foreground-color);
   font-family: unifont, sans-serif;
   font-size: 32px;
