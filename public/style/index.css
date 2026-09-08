@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
+    width: 80vw;
     padding: 4px;
 }
 
@@ -17,19 +17,26 @@
 
 /* Banner */
 #banner-frame {
-    width: 70%;
+    width: 100%;
 }
 
 /* Columns */
 .column {
-    background-color: var(--background-color);
     margin: 2px;
 }
 
 .side-column {
-    width:30%;
+    background-color: var(--background-color);
+    width:22%;
 }
 
 #centre-column {
-    width:40%;
+    width:55%;
+}
+
+/* Elements */
+#about-text {
+    margin-top: 4px;
+    padding: 1rem;
+    background-color: var(--background-color);
 }
