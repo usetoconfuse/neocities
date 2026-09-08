@@ -3,11 +3,13 @@
     flex-direction: column;
     align-items: center;
     width: 60vw;
+    background-color: gray;
 }
 
 #banner-frame {
     display: flex;
     justify-content: center;
+    z-index: 0;
 }
 
 #banner-frame div {
@@ -16,10 +18,9 @@
 }
 
 #banner-frame img {
-    z-index: -1;
-    margin: -12px;
     width: calc(100% + 24px);
     border-radius: 20px;
+    z-index: -1;
 }
 
 #homepage-columns-container {

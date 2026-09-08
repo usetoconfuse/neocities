@@ -30,3 +30,7 @@ body {
   border-radius: 20px;
   margin: 2px;
 }
+
+.pixel-border img {
+  margin: -12px;
+}
