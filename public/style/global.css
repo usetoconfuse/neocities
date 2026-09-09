@@ -47,10 +47,6 @@ p {
   align-items: center;
 }
 
-.frame {
-  display: flex;
-}
-
 .frame div {
   display: flex;
   background-color: transparent;
