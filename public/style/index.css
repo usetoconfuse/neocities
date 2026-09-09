@@ -37,6 +37,9 @@
 /* Column items */
 #welcome {
     margin-top: 4px;
+}
+
+#welcome-text {
     padding-inline: 1em;
     padding-bottom: 1em;
 }
