@@ -61,11 +61,6 @@ p {
   max-height: 100%;
 }
 
-.corner-label-container {
-  position: relative;
-  background-color: var(--background-color);;
-}
-
 .corner-label {
   width: 8em;
   max-width: 70%;
@@ -119,6 +114,7 @@ p {
 .pixel-corners,
 .pixel-corners--inset {
   border: 2px solid transparent;
+  background-color: var(--background-color);
 }
 .pixel-corners--wrapper {
   width: fit-content;
