@@ -51,7 +51,13 @@
 .nav-link {
     display: inline-block;
     margin-block: 0.2em;
+    padding-block: 0.1em;
     width: 100%;
-    color: var(--background-color);
-    background-color: var(--foreground-color);
+    text-indent: 0.7em;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+.nav-link:hover {
+    color: var(--tertiary);
 }

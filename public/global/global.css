@@ -5,8 +5,9 @@
 /* ================ VARIABLES ================ */
 
 :root {
-  --background-color: #ffffff;
-  --foreground-color: #000000;
+  --primary: #ffffff;
+  --secondary: #000000;
+  --tertiary: #e0f000;
   --dark-stripe: #6e6e6e;
   --light-stripe: #757575;
 }
@@ -28,7 +29,7 @@ body {
         var(--light-stripe) 25%
     );
   background-size: 100% 8px;
-  color: var(--foreground-color);
+  color: var(--secondary);
   font-family: unifont, sans-serif;
   font-size: 24px;
   image-rendering: crisp-edges;
@@ -136,7 +137,7 @@ p {
 .pixel-corners,
 .pixel-corners--inset {
   border: 2px solid transparent;
-  background-color: var(--background-color);
+  background-color: var(--primary);
 }
 
 .pixel-corners--wrapper {
@@ -205,7 +206,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--foreground-color);
+  background: var(--secondary);
   display: block;
   pointer-events: none;
 }
@@ -268,7 +269,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--foreground-color);
+  background: var(--secondary);
   display: block;
   pointer-events: none;
 }
