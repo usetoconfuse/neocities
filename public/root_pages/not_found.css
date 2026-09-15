@@ -3,12 +3,14 @@ body {
 }
 
 #not-found-container {
-    margin-top: 10vh;
-    margin-inline: 5vw;
+    margin-top: 20vh;
     padding-inline: 5vw;
+    padding-block: 6vh;
     background-color: var(--background-color);
 }
 
 h1 {
     letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: 3vh;
 }
