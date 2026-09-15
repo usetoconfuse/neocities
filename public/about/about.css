@@ -4,6 +4,11 @@
   --y: 0.5;
 }
 
+/* Containers */
+#about-content-container {
+  padding: 2em;
+}
+
 /* Figure styling */
 #figure-frame {
   display: grid;
