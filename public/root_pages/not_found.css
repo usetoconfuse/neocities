@@ -3,10 +3,16 @@ body {
 }
 
 #not-found-container {
-    margin-top: 20vh;
+    margin-top: 5vh;
     padding-inline: 5vw;
     padding-block: 6vh;
     background-color: var(--primary);
+}
+
+img {
+    max-height: 40vh;
+    max-width: 80vw;
+    padding-bottom: 5vh;
 }
 
 h1 {
