@@ -6,7 +6,7 @@ body {
     margin-top: 20vh;
     padding-inline: 5vw;
     padding-block: 6vh;
-    background-color: var(--background-color);
+    background-color: var(--primary);
 }
 
 h1 {
