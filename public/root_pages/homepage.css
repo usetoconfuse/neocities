@@ -15,6 +15,15 @@
     margin-top: 4px;
 }
 
+/* Header */
+#header h1 {
+    text-align: center;
+}
+#header p {
+    background-color: var(--primary);
+    text-wrap-mode: nowrap;
+}
+
 /* Columns */
 .column {
     margin: 2px;
