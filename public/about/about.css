@@ -6,6 +6,9 @@
 
 /* Containers */
 #about-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2em;
 }
 
@@ -13,6 +16,8 @@
 #figure-frame {
   display: grid;
   grid-template-columns: 1fr;
+  width:fit-content;
+  margin-bottom: 1em;
 }
 
 #figure-frame img {
