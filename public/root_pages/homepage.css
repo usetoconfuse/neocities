@@ -19,9 +19,9 @@
 #header h1 {
     text-align: center;
 }
-#header p {
+#header marquee {
     background-color: var(--primary);
-    text-wrap-mode: nowrap;
+    margin: inherit;
 }
 
 /* Columns */
