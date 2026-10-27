@@ -73,6 +73,7 @@
   background-color: var(--primary);
   border-top: 2px solid black;
   padding-block: 1em;
+  font-size: 24px;
 }
 
 #image-carousel h1 {
