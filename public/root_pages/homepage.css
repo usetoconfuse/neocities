@@ -83,3 +83,11 @@
 .nav-link:hover {
     color: var(--tertiary);
 }
+
+#notice-label {
+    background-color: var(--label-yellow);
+}
+
+#notice-text {
+    margin: 8px;
+}
