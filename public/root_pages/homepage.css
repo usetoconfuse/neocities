@@ -28,9 +28,21 @@
     padding-block: 4px;
 }
 
-#header marquee {
-    background-color: var(--primary);
-    margin: inherit;
+/* Marquee */
+
+.marquee {
+  text-wrap: nowrap;
+  animation: marquee 4s linear infinite;
+  background-color: var(--primary);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-9.1%);
+  }
 }
 
 /* Columns */
