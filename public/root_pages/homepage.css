@@ -88,10 +88,19 @@
     padding-block: 0.1em;
     width: 100%;
     text-indent: 0.7em;
+    font-size: 24px;
     color: var(--primary);
     background-color: var(--secondary);
 }
 
 .nav-link:hover {
     color: var(--tertiary);
+}
+
+#notice-label {
+    background-color: var(--label-yellow);
+}
+
+#notice-text {
+    margin: 12px;
 }

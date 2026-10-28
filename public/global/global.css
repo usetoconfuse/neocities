@@ -12,6 +12,7 @@
   --light-stripe: #757575;
   --label-purple: plum;
   --label-green: lightgreen;
+  --label-yellow: #fff983;
 }
 
 /* ================ FONTS ================ */
@@ -33,7 +34,7 @@ body {
   background-size: 100% 8px;
   color: var(--secondary);
   font-family: unifont, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   image-rendering: crisp-edges;
   overflow-x: hidden;
   margin: 0px;
@@ -74,6 +75,7 @@ p {
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 48px;
+  font-size: 24px;
 }
 
 /* ================ PIXEL CORNERS ================ */
