@@ -33,15 +33,16 @@
 .marquee {
   text-wrap: nowrap;
   animation: marquee 4s linear infinite;
+  font-size: 24px;
   background-color: var(--primary);
 }
 
 @keyframes marquee {
   from {
-    transform: translateX(0%);
+    transform: translateX(0px);
   }
   to {
-    transform: translateX(-9.1%);
+    transform: translateX(-325px);
   }
 }
 
