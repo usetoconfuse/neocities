@@ -1,31 +1,31 @@
 /* Containers */
 #homepage-content-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
-    padding: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  padding: 4px;
 }
 
 #homepage-columns-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Header */
 #header {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 4.5px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4.5px;
 }
 
 #header img {
-    max-height: 150px;
-    max-width: 100vw;
-    margin: auto;
-    padding-block: 4px;
+  max-height: 150px;
+  max-width: 100vw;
+  margin: auto;
+  padding-block: 4px;
 }
 
 /* Marquee */
@@ -48,64 +48,64 @@
 
 /* Columns */
 .column {
-    margin: 2px;
+  margin: 2px;
 }
 
 .side-column {
-    width:20%;
+  width:20%;
 }
 
 #centre-column {
-    width:60%;
+  width:60%;
 }
 
 /* Column items */
 #welcome {
-    margin-top: 4px;
+  margin-top: 4px;
 }
 
 #welcome-label {
-    background-color: var(--label-green);
+  background-color: var(--label-green);
 }
 
 #welcome-text {
-    padding-inline: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.4em;
+  padding-inline: 1em;
+  padding-bottom: 1em;
+  padding-top: 0.4em;
 }
 
 #fine-print {
-    margin-top: 1em;
-    font-size: 16px;
+  margin-top: 1em;
+  font-size: 16px;
 }
 
 #navigation-box {
-    padding-bottom: 4px;
+  padding-bottom: 4px;
 }
 
 #navigation-label {
-    background-color: var(--label-purple);
+  background-color: var(--label-purple);
 }
 
 .nav-link {
-    display: inline-block;
-    margin-block: 0.2em;
-    padding-block: 0.1em;
-    width: 100%;
-    text-indent: 0.7em;
-    font-size: 24px;
-    color: var(--primary);
-    background-color: var(--secondary);
+  display: inline-block;
+  margin-block: 0.2em;
+  padding-block: 0.1em;
+  width: 100%;
+  text-indent: 0.7em;
+  font-size: 24px;
+  color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .nav-link:hover {
-    color: var(--tertiary);
+  color: var(--tertiary);
 }
 
 #notice-label {
-    background-color: var(--label-yellow);
+  background-color: var(--label-yellow);
 }
 
 #notice-text {
-    margin: 12px;
+  margin: 12px;
 }
