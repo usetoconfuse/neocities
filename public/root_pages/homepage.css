@@ -79,6 +79,10 @@
     font-size: 16px;
 }
 
+#navigation-box {
+    padding-bottom: 4px;
+}
+
 #navigation-label {
     background-color: var(--label-purple);
 }
