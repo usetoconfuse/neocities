@@ -10,9 +10,10 @@
   --tertiary: #e0f000;
   --dark-stripe: #6e6e6e;
   --light-stripe: #757575;
-  --label-purple: plum;
-  --label-green: lightgreen;
+  --label-purple: #dda0dd;
+  --label-green: #90ee90;
   --label-yellow: #fff983;
+  --label-blue: #b7e3f1;
 }
 
 /* ================ FONTS ================ */

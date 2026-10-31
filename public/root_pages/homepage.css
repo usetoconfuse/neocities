@@ -99,6 +99,10 @@
   color: var(--tertiary);
 }
 
+#changelog-label {
+  background-color: var(--label-blue)
+}
+
 #notice-label {
   background-color: var(--label-yellow);
 }
