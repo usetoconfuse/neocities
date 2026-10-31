@@ -103,6 +103,12 @@
   background-color: var(--label-blue)
 }
 
+#changelog-text-box {
+  padding-top: 8px;
+  padding-bottom:12px;
+  padding-inline: 16px;
+}
+
 #notice-label {
   background-color: var(--label-yellow);
 }
